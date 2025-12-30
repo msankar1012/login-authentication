@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.cloudflare.com/npm/@cloudflare/workers-types/pages-function.jsonc",
-  "name": "react-supabase-auth",
+  "name": "login-authentication",
     "main": "src/index.jsx",
     "compatibility_date": "2025-12-29",
     "assets": {
