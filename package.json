@@ -1,7 +1,7 @@
 {
-  "name": "react",
+  "name": "loginauth",
   "version": "1.0.0",
-  "description": "",
+  "description": "login authentication",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
@@ -21,13 +21,19 @@
   },
   "scripts": {
     "dev": "vite",
-   "build": "vite build",
-   "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "login-authentication"
+  },
+  "author": "rezilant",
+  "license": "ISC"
 }
