@@ -1,18 +1,19 @@
 {
   "$schema": "https://static.cloudflare.com/npm/@cloudflare/workers-types/pages-function.jsonc",
   "name": "login-authentication",
-    "main": "src/index.jsx",
-    "compatibility_date": "2025-12-29",
-    "assets": {
-      "directory": "./dist",
-      "binding": "ASSETS"
-    },
-    "vars": {
-      "VITE_SUPABASE_URL": "https://rervajqufuodlkcvdzey.supabase.co",
-      "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJlcnZhanF1ZnVvZGxrY3ZkemV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY3MDI1OTUsImV4cCI6MjA4MjI3ODU5NX0.AoyRsaL4vfsYEBxW8CyQDyPpxSy6eOvqs8acDpT0tdw"
-    },  
-    {
-      "telemetry": false
-    },
-  }
-  
+  "pages_build_output_dir": "./dist",
+  "main": "src/index.jsx",
+  "compatibility_date": "2025-12-29",
+
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+
+  "vars": {
+    "VITE_SUPABASE_URL": "https://rervajqufuodlkcvdzey.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJlcnZhanF1ZnVvZGxrY3ZkemV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY3MDI1OTUsImV4cCI6MjA4MjI3ODU5NX0.AoyRsaL4vfsYEBxW8CyQDyPpxSy6eOvqs8acDpT0tdw"
+  },
+
+  "telemetry": false
+}
