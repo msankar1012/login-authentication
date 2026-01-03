@@ -3,12 +3,13 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      output: {
-        // Fix for Cloudflare Pages IIFE warning
-        inlineDynamicImports: true,
-      },
-    },
+  define: {
+    // Pre-replace env vars at build time for Cloudflare
+    "import.meta.env.VITE_SUPABASE_URL": JSON.stringify(
+      process.env.VITE_SUPABASE_URL
+    ),
+    "import.meta.env.VITE_SUPABASE_ANON_KEY": JSON.stringify(
+      process.env.VITE_SUPABASE_ANON_KEY
+    ),
   },
 });
